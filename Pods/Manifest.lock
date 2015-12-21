@@ -1,10 +1,15 @@
 PODS:
+  - FFmpeg (2.8.3):
+    - FFmpeg/precompiled (= 2.8.3)
+  - FFmpeg/precompiled (2.8.3)
   - NSLogger (1.2)
 
 DEPENDENCIES:
+  - FFmpeg (~> 2.8)
   - NSLogger
 
 SPEC CHECKSUMS:
-  NSLogger: 9607fdeafd0b09922c69615f99f127de45971b8f
+  FFmpeg: f1428c3b60b5f9e349fcd5d7878705cd7f9a26f6
+  NSLogger: f513dc4b65a1dbc5767a9a1fd2331915550b4d73
 
-COCOAPODS: 0.32.1
+COCOAPODS: 0.39.0

@@ -27,11 +27,6 @@
 		87E794411639110F000A0848 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87E79439163910EA000A0848 /* Accelerate.framework */; };
 		87E794421639110F000A0848 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87E79437163910D0000A0848 /* QuartzCore.framework */; };
 		87E794431639110F000A0848 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87E79435163910CA000A0848 /* OpenGLES.framework */; };
-		87E7944A16391B9E000A0848 /* libavcodec.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 87E7944416391B9E000A0848 /* libavcodec.a */; };
-		87E7944C16391B9E000A0848 /* libavformat.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 87E7944616391B9E000A0848 /* libavformat.a */; };
-		87E7944D16391B9E000A0848 /* libavutil.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 87E7944716391B9E000A0848 /* libavutil.a */; };
-		87E7944E16391B9E000A0848 /* libswresample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 87E7944816391B9E000A0848 /* libswresample.a */; };
-		87E7944F16391B9E000A0848 /* libswscale.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 87E7944916391B9E000A0848 /* libswscale.a */; };
 		87E7945116391BC1000A0848 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 87E7945016391BC1000A0848 /* libz.dylib */; };
 		87E7945416391BDC000A0848 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87E7945216391BD2000A0848 /* MediaPlayer.framework */; };
 		87FD6176163A75440090956E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87E793FE16390F6D000A0848 /* Foundation.framework */; };
@@ -46,6 +41,10 @@
 		87FD6191163A75DC0090956E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87E79437163910D0000A0848 /* QuartzCore.framework */; };
 		87FD6192163A75DF0090956E /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87E79439163910EA000A0848 /* Accelerate.framework */; };
 		87FD6193163A75E10090956E /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87E79435163910CA000A0848 /* OpenGLES.framework */; };
+		F4BC790C1C283FC700502ED7 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4BC790B1C283FC700502ED7 /* AVFoundation.framework */; };
+		F4BC790E1C283FCC00502ED7 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4BC790D1C283FCC00502ED7 /* CoreMedia.framework */; };
+		F4BC790F1C283FD500502ED7 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4BC790B1C283FC700502ED7 /* AVFoundation.framework */; };
+		F4BC79101C283FDC00502ED7 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4BC790D1C283FCC00502ED7 /* CoreMedia.framework */; };
 		FD20733F5D6A4546A9836E2D /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 49D953B9D2DC48FBB580C6AC /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -62,10 +61,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		07D459C0599C42B1906B39AD /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		2B6B0C9B440FA23961B74BF9 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		49D953B9D2DC48FBB580C6AC /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E6AB9BC191288370010CAA1 /* kxmovie-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "kxmovie-Prefix.pch"; sourceTree = "<group>"; };
 		4E6AB9BD19128FDA0010CAA1 /* KxLogger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KxLogger.h; sourceTree = "<group>"; };
+		75465D56F1092DD62CF90E26 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		8704657A16F6EC9100D4083E /* libiconv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libiconv.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/usr/lib/libiconv.dylib; sourceTree = DEVELOPER_DIR; };
 		87E793F816390F6D000A0848 /* KxMovieExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KxMovieExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		87E793FC16390F6D000A0848 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
@@ -94,15 +94,14 @@
 		87E79439163910EA000A0848 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/Accelerate.framework; sourceTree = DEVELOPER_DIR; };
 		87E7943B163910F6000A0848 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/AudioToolbox.framework; sourceTree = DEVELOPER_DIR; };
 		87E7943D163910FB000A0848 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/CoreAudio.framework; sourceTree = DEVELOPER_DIR; };
-		87E7944416391B9E000A0848 /* libavcodec.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libavcodec.a; path = libs/libavcodec.a; sourceTree = "<group>"; };
-		87E7944616391B9E000A0848 /* libavformat.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libavformat.a; path = libs/libavformat.a; sourceTree = "<group>"; };
-		87E7944716391B9E000A0848 /* libavutil.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libavutil.a; path = libs/libavutil.a; sourceTree = "<group>"; };
-		87E7944816391B9E000A0848 /* libswresample.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libswresample.a; path = libs/libswresample.a; sourceTree = "<group>"; };
-		87E7944916391B9E000A0848 /* libswscale.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libswscale.a; path = libs/libswscale.a; sourceTree = "<group>"; };
 		87E7945016391BC1000A0848 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/usr/lib/libz.dylib; sourceTree = DEVELOPER_DIR; };
 		87E7945216391BD2000A0848 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/MediaPlayer.framework; sourceTree = DEVELOPER_DIR; };
 		87E7946116394577000A0848 /* KxAudioManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KxAudioManager.h; sourceTree = "<group>"; };
 		87FD6175163A75440090956E /* libkxmovie.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libkxmovie.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4BC79091C283FA700502ED7 /* include */ = {isa = PBXFileReference; lastKnownFileType = folder; name = include; path = "Pods/FFmpeg/ffmpeg-ios-static-libs/include"; sourceTree = "<group>"; };
+		F4BC790A1C283FA700502ED7 /* lib */ = {isa = PBXFileReference; lastKnownFileType = folder; name = lib; path = "Pods/FFmpeg/ffmpeg-ios-static-libs/lib"; sourceTree = "<group>"; };
+		F4BC790B1C283FC700502ED7 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.2.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
+		F4BC790D1C283FCC00502ED7 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.2.sdk/System/Library/Frameworks/CoreMedia.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,13 +109,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4BC790E1C283FCC00502ED7 /* CoreMedia.framework in Frameworks */,
+				F4BC790C1C283FC700502ED7 /* AVFoundation.framework in Frameworks */,
 				8704657C16F6ECA000D4083E /* libiconv.dylib in Frameworks */,
 				87E7945116391BC1000A0848 /* libz.dylib in Frameworks */,
-				87E7944A16391B9E000A0848 /* libavcodec.a in Frameworks */,
-				87E7944C16391B9E000A0848 /* libavformat.a in Frameworks */,
-				87E7944D16391B9E000A0848 /* libavutil.a in Frameworks */,
-				87E7944E16391B9E000A0848 /* libswresample.a in Frameworks */,
-				87E7944F16391B9E000A0848 /* libswscale.a in Frameworks */,
 				87E793FD16390F6D000A0848 /* UIKit.framework in Frameworks */,
 				87E793FF16390F6D000A0848 /* Foundation.framework in Frameworks */,
 				87E7940116390F6D000A0848 /* CoreGraphics.framework in Frameworks */,
@@ -134,6 +130,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4BC79101C283FDC00502ED7 /* CoreMedia.framework in Frameworks */,
+				F4BC790F1C283FD500502ED7 /* AVFoundation.framework in Frameworks */,
 				87FD6176163A75440090956E /* Foundation.framework in Frameworks */,
 				87FD618D163A75CF0090956E /* CoreGraphics.framework in Frameworks */,
 				87FD618E163A75D20090956E /* MediaPlayer.framework in Frameworks */,
@@ -155,7 +153,7 @@
 				87FD6177163A75440090956E /* kxmovie */,
 				87E793FB16390F6D000A0848 /* Frameworks */,
 				87E793F916390F6D000A0848 /* Products */,
-				07D459C0599C42B1906B39AD /* Pods.xcconfig */,
+				8D777AB0BA2573AD48E66438 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -171,12 +169,11 @@
 		87E793FB16390F6D000A0848 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				F4BC790D1C283FCC00502ED7 /* CoreMedia.framework */,
+				F4BC790B1C283FC700502ED7 /* AVFoundation.framework */,
+				F4BC79091C283FA700502ED7 /* include */,
+				F4BC790A1C283FA700502ED7 /* lib */,
 				8704657A16F6EC9100D4083E /* libiconv.dylib */,
-				87E7944416391B9E000A0848 /* libavcodec.a */,
-				87E7944616391B9E000A0848 /* libavformat.a */,
-				87E7944716391B9E000A0848 /* libavutil.a */,
-				87E7944816391B9E000A0848 /* libswresample.a */,
-				87E7944916391B9E000A0848 /* libswscale.a */,
 				87E7945016391BC1000A0848 /* libz.dylib */,
 				87E793FC16390F6D000A0848 /* UIKit.framework */,
 				87E793FE16390F6D000A0848 /* Foundation.framework */,
@@ -235,6 +232,15 @@
 			path = kxmovie;
 			sourceTree = "<group>";
 		};
+		8D777AB0BA2573AD48E66438 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				75465D56F1092DD62CF90E26 /* Pods.debug.xcconfig */,
+				2B6B0C9B440FA23961B74BF9 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -247,6 +253,7 @@
 				87E793F516390F6D000A0848 /* Frameworks */,
 				87E793F616390F6D000A0848 /* Resources */,
 				B5B7274CA0134F769E7882A1 /* Copy Pods Resources */,
+				0897622787B204A652266F87 /* Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -320,6 +327,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		0897622787B204A652266F87 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		B5B7274CA0134F769E7882A1 /* Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -332,7 +354,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		D2074A9FBC4F4D4892A202BE /* Check Pods Manifest.lock */ = {
@@ -400,7 +422,7 @@
 		};
 		87E7941B16390F6D000A0848 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 07D459C0599C42B1906B39AD /* Pods.xcconfig */;
+			baseConfigurationReference = 75465D56F1092DD62CF90E26 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -446,7 +468,7 @@
 		};
 		87E7941C16390F6D000A0848 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 07D459C0599C42B1906B39AD /* Pods.xcconfig */;
+			baseConfigurationReference = 2B6B0C9B440FA23961B74BF9 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
