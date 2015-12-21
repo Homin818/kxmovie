@@ -35,9 +35,9 @@ static NSString * formatTimeInterval(CGFloat seconds, BOOL isLeft)
     m = m % 60;
 
     NSMutableString *format = [(isLeft && seconds >= 0.5 ? @"-" : @"") mutableCopy];
-    if (h != 0) [format appendFormat:@"%d:%0.2d", h, m];
-    else        [format appendFormat:@"%d", m];
-    [format appendFormat:@":%0.2d", s];
+    if (h != 0) [format appendFormat:@"%ld:%0.2ld", (long)h, (long)m];
+    else        [format appendFormat:@"%ld", (long)m];
+    [format appendFormat:@":%0.2ld", (long)s];
 
     return format;
 }
@@ -499,8 +499,8 @@ _messageLabel.hidden = YES;
         
         const CGPoint vt = [sender velocityInView:self.view];
         const CGPoint pt = [sender translationInView:self.view];
-        const CGFloat sp = MAX(0.1, log10(fabsf(vt.x)) - 1.0);
-        const CGFloat sc = fabsf(pt.x) * 0.33 * sp;
+        const CGFloat sp = MAX(0.1, log10(fabs(vt.x)) - 1.0);
+        const CGFloat sc = fabs(pt.x) * 0.33 * sp;
         if (sc > 10) {
             
             const CGFloat ff = pt.x > 0 ? 1.0 : -1.0;            

@@ -13,9 +13,10 @@
 int main(int argc, char *argv[])
 {
     @autoreleasepool {
-#ifdef LoggerStartForBuildUser
+//#ifdef LoggerStartForBuildUser
         LoggerStartForBuildUser();
-#endif
+//#endif
+
         return UIApplicationMain(argc, argv, nil, NSStringFromClass([AppDelegate class]));
     }
 }
