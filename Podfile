@@ -1,6 +1,14 @@
+
 platform :ios, '8.0'
 
-link_with 'KXFFMPEG'
+use_frameworks!
 
-pod 'NSLogger'
-pod 'FFmpeg', '~> 2.8'
+link_with 'KxMovieExample'
+
+target 'KxMovieExample' do
+ 
+ pod 'NSLogger'
+ pod 'FFmpeg', '~> 2.8'
+ 
+end
+

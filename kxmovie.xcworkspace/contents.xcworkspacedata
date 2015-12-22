@@ -2,7 +2,7 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:KXTest/KXTest.xcodeproj">
+      location = "group:kxmovie.podspec">
    </FileRef>
    <FileRef
       location = "group:kxmovie.xcodeproj">
