@@ -1,4 +1,6 @@
-platform :ios, '7.0'
+platform :ios, '8.0'
+
+link_with 'KXFFMPEG'
 
 pod 'NSLogger'
 pod 'FFmpeg', '~> 2.8'

@@ -9,7 +9,8 @@
 //  this file is part of KxMovie
 //  KxMovie is licenced under the LGPL v3, see lgpl-3.0.txt
 
-#import <Foundation/Foundation.h>
+//#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 #import <CoreGraphics/CoreGraphics.h>
 
 extern NSString * kxmovieErrorDomain;

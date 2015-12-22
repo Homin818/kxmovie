@@ -10,7 +10,7 @@
 //  KxMovie is licenced under the LGPL v3, see lgpl-3.0.txt
 
 #import "MainViewController.h"
-#import "KxMovieViewController.h"
+//#import "KxMovieViewController.h"
 
 @interface MainViewController () {
     NSArray *_localMovies;
@@ -245,7 +245,7 @@
     [self presentViewController:vc animated:YES completion:nil];
     //[self.navigationController pushViewController:vc animated:YES];    
 
-    LoggerApp(1, @"Playing a movie: %@", path);
+    //LoggerApp(1, @"Playing a movie: %@", path);
 }
 
 @end
