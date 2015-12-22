@@ -32,26 +32,10 @@
 		F414AEA81C2964FF00F76930 /* KxMovieViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 87E794241639107F000A0848 /* KxMovieViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F414AEA91C2964FF00F76930 /* KxMovieViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 87E794251639107F000A0848 /* KxMovieViewController.m */; };
 		F414AEAB1C29650C00F76930 /* kxmovie.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 87E7941F1639107F000A0848 /* kxmovie.bundle */; };
-		F414AEAF1C29668300F76930 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4BC79191C28413600502ED7 /* Accelerate.framework */; };
-		F414AEB01C29669100F76930 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4BC790D1C283FCC00502ED7 /* CoreMedia.framework */; };
-		F414AEB11C29669700F76930 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4BC790B1C283FC700502ED7 /* AVFoundation.framework */; };
-		F414AEB31C2966AE00F76930 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4BC791B1C28413C00502ED7 /* QuartzCore.framework */; };
-		F414AEB41C2966B700F76930 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4BC791D1C28414300502ED7 /* OpenGLES.framework */; };
-		F414AEB51C2966C400F76930 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4BC79171C28413000502ED7 /* AudioToolbox.framework */; };
 		F414AEB61C29690300F76930 /* KxMovieExample-Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 87E7940A16390F6D000A0848 /* KxMovieExample-Prefix.pch */; };
 		F414AEB71C29693900F76930 /* KxLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E6AB9BD19128FDA0010CAA1 /* KxLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F414AEBA1C296E8D00F76930 /* KXFFMPEG.h in Headers */ = {isa = PBXBuildFile; fileRef = F414AE841C2963C300F76930 /* KXFFMPEG.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F414AEBB1C296F1500F76930 /* kxmovie-Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 4E6AB9BC191288370010CAA1 /* kxmovie-Prefix.pch */; };
-		F4BC790F1C283FD500502ED7 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4BC790B1C283FC700502ED7 /* AVFoundation.framework */; };
-		F4BC79101C283FDC00502ED7 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4BC790D1C283FCC00502ED7 /* CoreMedia.framework */; };
-		F4BC79121C28411500502ED7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4BC79111C28411400502ED7 /* CoreGraphics.framework */; };
-		F4BC79141C28411F00502ED7 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4BC79131C28411F00502ED7 /* MediaPlayer.framework */; };
-		F4BC79161C28412800502ED7 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4BC79151C28412800502ED7 /* CoreAudio.framework */; };
-		F4BC79181C28413000502ED7 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4BC79171C28413000502ED7 /* AudioToolbox.framework */; };
-		F4BC791A1C28413700502ED7 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4BC79191C28413600502ED7 /* Accelerate.framework */; };
-		F4BC791C1C28413C00502ED7 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4BC791B1C28413C00502ED7 /* QuartzCore.framework */; };
-		F4BC791E1C28414300502ED7 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4BC791D1C28414300502ED7 /* OpenGLES.framework */; };
-		F4BC79201C28415300502ED7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4BC791F1C28415300502ED7 /* UIKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -133,15 +117,6 @@
 		F414AE8B1C2963C300F76930 /* KXFFMPEGTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KXFFMPEGTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F414AE921C2963C300F76930 /* KXFFMPEGTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KXFFMPEGTests.m; sourceTree = "<group>"; };
 		F414AE941C2963C300F76930 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F4BC790B1C283FC700502ED7 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.2.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
-		F4BC790D1C283FCC00502ED7 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.2.sdk/System/Library/Frameworks/CoreMedia.framework; sourceTree = DEVELOPER_DIR; };
-		F4BC79111C28411400502ED7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.2.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
-		F4BC79131C28411F00502ED7 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.2.sdk/System/Library/Frameworks/MediaPlayer.framework; sourceTree = DEVELOPER_DIR; };
-		F4BC79151C28412800502ED7 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.2.sdk/System/Library/Frameworks/CoreAudio.framework; sourceTree = DEVELOPER_DIR; };
-		F4BC79171C28413000502ED7 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.2.sdk/System/Library/Frameworks/AudioToolbox.framework; sourceTree = DEVELOPER_DIR; };
-		F4BC79191C28413600502ED7 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.2.sdk/System/Library/Frameworks/Accelerate.framework; sourceTree = DEVELOPER_DIR; };
-		F4BC791B1C28413C00502ED7 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.2.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
-		F4BC791D1C28414300502ED7 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.2.sdk/System/Library/Frameworks/OpenGLES.framework; sourceTree = DEVELOPER_DIR; };
 		F4BC791F1C28415300502ED7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		FE2DDF7A67955F6CA49A9532 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -151,13 +126,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F414AEB51C2966C400F76930 /* AudioToolbox.framework in Frameworks */,
-				F414AEB41C2966B700F76930 /* OpenGLES.framework in Frameworks */,
-				F414AEB31C2966AE00F76930 /* QuartzCore.framework in Frameworks */,
-				F414AEB11C29669700F76930 /* AVFoundation.framework in Frameworks */,
-				F414AEB01C29669100F76930 /* CoreMedia.framework in Frameworks */,
-				F414AEAF1C29668300F76930 /* Accelerate.framework in Frameworks */,
-				F4BC79201C28415300502ED7 /* UIKit.framework in Frameworks */,
 				F414AE971C2963C300F76930 /* KXFFMPEG.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -166,15 +134,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F4BC791E1C28414300502ED7 /* OpenGLES.framework in Frameworks */,
-				F4BC791C1C28413C00502ED7 /* QuartzCore.framework in Frameworks */,
-				F4BC791A1C28413700502ED7 /* Accelerate.framework in Frameworks */,
-				F4BC79181C28413000502ED7 /* AudioToolbox.framework in Frameworks */,
-				F4BC79161C28412800502ED7 /* CoreAudio.framework in Frameworks */,
-				F4BC79141C28411F00502ED7 /* MediaPlayer.framework in Frameworks */,
-				F4BC79121C28411500502ED7 /* CoreGraphics.framework in Frameworks */,
-				F4BC79101C283FDC00502ED7 /* CoreMedia.framework in Frameworks */,
-				F4BC790F1C283FD500502ED7 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -234,15 +193,6 @@
 			isa = PBXGroup;
 			children = (
 				F4BC791F1C28415300502ED7 /* UIKit.framework */,
-				F4BC791D1C28414300502ED7 /* OpenGLES.framework */,
-				F4BC791B1C28413C00502ED7 /* QuartzCore.framework */,
-				F4BC79191C28413600502ED7 /* Accelerate.framework */,
-				F4BC79171C28413000502ED7 /* AudioToolbox.framework */,
-				F4BC79151C28412800502ED7 /* CoreAudio.framework */,
-				F4BC79131C28411F00502ED7 /* MediaPlayer.framework */,
-				F4BC79111C28411400502ED7 /* CoreGraphics.framework */,
-				F4BC790D1C283FCC00502ED7 /* CoreMedia.framework */,
-				F4BC790B1C283FC700502ED7 /* AVFoundation.framework */,
 				FE2DDF7A67955F6CA49A9532 /* libPods.a */,
 			);
 			name = Frameworks;
