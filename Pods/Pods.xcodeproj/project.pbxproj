@@ -157,6 +157,7 @@
 		F12DD6A2BF85E80EC13744BE0FCB8F70 /* vaapi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = vaapi.h; path = "ffmpeg-ios-static-libs/include/libavcodec/vaapi.h"; sourceTree = "<group>"; };
 		F1ED8771C94AEC418435592439F38243 /* NSLogger-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSLogger-umbrella.h"; sourceTree = "<group>"; };
 		F396307A8E3CC38740FA82A526188D1C /* LoggerCommon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LoggerCommon.h; path = "Client Logger/iOS/LoggerCommon.h"; sourceTree = "<group>"; };
+		F422C9DB1C29F4CE00B6CA73 /* kxffmpeg.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; name = kxffmpeg.podspec; path = ../kxffmpeg.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		F57A93028ABF9F007D3E31CC246EE44A /* bprint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = bprint.h; path = "ffmpeg-ios-static-libs/include/libavutil/bprint.h"; sourceTree = "<group>"; };
 		FA9141068F685A7B5A5D677BCB4E61BD /* attributes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = attributes.h; path = "ffmpeg-ios-static-libs/include/libavutil/attributes.h"; sourceTree = "<group>"; };
 		FD6E9D132940B7F4F60D910FF4ADDBA8 /* Pods-KxMovieExample.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-KxMovieExample.modulemap"; sourceTree = "<group>"; };
@@ -345,6 +346,7 @@
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
+				F422C9DB1C29F4CE00B6CA73 /* kxffmpeg.podspec */,
 				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
 				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
 				BA1AEB56B4A9EB7A68A02D352FCB0917 /* Pods */,

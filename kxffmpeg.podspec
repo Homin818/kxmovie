@@ -15,8 +15,8 @@ Pod::Spec.new do |s|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  s.name         = "kxmovie"
-  s.version      = "0.0.1"
+  s.name         = "kxffmpeg"
+  s.version      = "0.5.1"
   s.summary      = "movie player for iOS using ffmpeg"
 
   # This description is used to generate tags and improve search results.
@@ -81,8 +81,9 @@ Pod::Spec.new do |s|
   #
 
   s.source       = { :git => "https://github.com/skorebrits/kxmovie.git",
-                     :commit => "2c5324b09940aeec3d75475c54306364397b8d1f",
-                     :tag => 'v0.0.1'
+                     :tag => "0.5.1",
+                     :commit => "e3d05935f3259e3cfcb0071377cac791d2eaab69"
+                     
                     }
 
 
@@ -94,7 +95,13 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  =  "kxmovie"
+  s.source_files  =  "kxmovie/KxAudioManager.h",
+                     "KxLogger.h",
+                     "kxmovie-Prefix.pch",
+                     "kxmovie/kxmovie.bundle",
+                     "KxMovieDecoder.h",
+                     "kxmovie/KxMovieGLView.h",
+                     "kxmovie/KxMovieViewController.h"
   #s.source_files  = "Classes", "Classes/**/*.{h,m}"
   #s.exclude_files = "Classes/Exclude"
 
